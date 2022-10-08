@@ -40,11 +40,11 @@ const MaintMint = ({ accounts, setAccounts }) => {
   };
 
   return (
-    <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
+    
       <Box width="520px">
         <div>
-          <Text fontSize="48px" textShadow="0 5px #000000">
-            RoboPunksNFT
+          <Text>
+            Coolbandar NFT
           </Text>
         </div>
 
@@ -86,7 +86,6 @@ const MaintMint = ({ accounts, setAccounts }) => {
           </Text>
         )}
       </Box>
-    </Flex>
   );
 };
 

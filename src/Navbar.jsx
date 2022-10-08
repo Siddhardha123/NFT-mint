@@ -13,13 +13,7 @@ const Navbar = ({accounts,setAccounts}) => {
     }
   return (
     <div>
-         <div>instagram</div>
-         <div>github</div>
-         <div>mail</div>
-
-         <div>about</div>
-         <div>mint</div>
-         <div>team</div>
+         
 
          {isConnected ?(<p>connected</p>):(<button type="" onClick={connectAccount}>connect</button>)}
     </div>

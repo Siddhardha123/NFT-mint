@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  background-image: url('./bandar.jpeg');
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
